@@ -12,7 +12,7 @@ public class ClientSocketMain {
 		try {
 			//서버에 접속
 			//Socket socket = new Socket(ip, port);
-			InetAddress addr = InetAddress.getByName("192.168.0.248");
+			InetAddress addr = InetAddress.getByName("192.168.0.228");
 			Socket socket = new Socket(addr, 9999);
 			
 			//전송할 메세지 입력받기
